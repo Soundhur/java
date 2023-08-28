@@ -1,0 +1,26 @@
+package loop1;
+
+import java.util.Scanner;
+
+public class Loop1 {
+
+    
+    public static void printNumbers(int limit) {
+        for(int i=1;i<=limit;i++) {
+            System.out.println(i);
+            
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int limit = sc.nextInt();
+
+      
+        printNumbers(limit);
+
+       
+    }
+}
